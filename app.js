@@ -1,4 +1,4 @@
-var boxgift = document.querySelector('.box-gift')
+    var boxgift = document.querySelector('.box-gift')
 var Close = document.querySelector('.fa-xmark')
 var boxContent = document.querySelector('.box-content')
 var content =document.querySelector('.content')
