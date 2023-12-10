@@ -15,6 +15,16 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#content_text, #text3 {
+    /* width:200px; */
+    height:200px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    z-index: 9000000000000;
+}
+.content1{
+    z-index: 100000000000;
+}
 .container{
     position: relative;
     width: 100%;
@@ -715,6 +725,7 @@ section{
     position: absolute;
     display: flex;
     left: 50%;
+    top: 20%;
     transform: translateX(-50%);
     justify-content: center;
     align-items: center;
@@ -760,7 +771,7 @@ section{
 .text2 h2:nth-child(1){
     padding: 5px 5px 0px 5px;
     font-size: 22px;
-    transform: translateX(-500px);
+    /* transform: translateX(-500px); */
     font-family: 'Dancing Script', cursive;
 }
 .box-content:hover #text2{
